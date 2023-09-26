@@ -1,14 +1,12 @@
 import './App.css'
-function App() {
+import Card from './components/Card/Card'
 
+function App() {
   return (
     <>
-      <div className="card">
-       <h2>Rick Sanchaes</h2>
-       <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="" />
-    
-      </div> 
-    </>    
+      <Card />
+    </>
   )
 }
+
 export default App
